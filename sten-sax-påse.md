@@ -197,7 +197,12 @@ function compare (human, computer) {
 }
 ```
 
-7.	Dags att köra vårt spel och se resultatet. Skapa en funktion som heter play och i den ”kallar” du på alert(compare(userChoice(), computerChoice()));
+7.	Dags att köra vårt spel och se resultatet. Längst ner i koden, efter alla funktioner vi nu gått igenom,  ”kallar” du på alert(compare(userChoice(), computerChoice()));
+
+```javascript
+alert(compare(userChoice(), computerChoice()));
+
+```
 
 8. Kör nu koden med "Run" i jsfiddle och testa spelet. Händer följande?
 
