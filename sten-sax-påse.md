@@ -74,9 +74,48 @@ Skärmdump
 
  a.	Gör en funktion som heter `userChoice` och som returnerar `prompt(’Vill du välja, sten, sax eller påse?’)`
 
+```javascript
+function userChoice	() {
+	return prompt('Vill du välja, sten, sax eller påse?');
+}
+```
+
  b.	Testa din funktion genom att ”kalla” på den. Detta gör du genom att skriva `alert(userChoice());`
  
- c.	Kör din kod genom att klicka på knappen *Run* i jsfiddle. Ser du följande?
+```javascript
+alert(userChoice());
+```
+ 
+ c.	Kör din kod genom att klicka på knappen *Run* i jsfiddle. Ser du följande? (BILD)
    - Ja: bra jobbat! 
    
    - Nej: ingen fara; fråga någon av mentorerna om hjälp. Det är helt ok att inte lyckas första gången.
+
+4.	Dags att låta datorn göra sitt val; ja, det är helt möjligt. JavaScript har en inbyggd funktion som väljer en siffra mellan 0 och 1. Den kan exempelvis välja 0,5645454; detta kommer representera ett värde senare. Gör följande för att skapa en funktion som låter datorn avgöra vilket val den gjort.
+
+ a.	Skapa en funktion som heter `computerChoice()`
+
+ b.	I denna deklarerar du en variabel som heter `randomNumber`; denna variabeln tilldelar du värdet `Math.random();`
+
+ c.	Nu är det dags att skriva *if-else*-satser och returnera valet för att avgöra vilket val datorn gör. Exempelvis såhär:
+```javascript
+	if (randomNumber <= 0.34) {
+		return 'sten';
+```
+ - Gör följande:
+  - Om randomNumber är större eller lika (<=) med 0.34 returnerar funktionen sten.
+  -	Om randomNumber är större eller lika (<=) med 0.67 returnerar funktionen påse.
+  - Om inget av dessa, returnerar den sax.
+```javascript
+function computerChoice	() {
+	var randomNumber = Math.random();
+
+	if (randomNumber <= 0.34) {
+		return 'sten';
+	} else if (randomNumber <= 0.67) {
+		return 'påse';
+	} else {
+		return 'sax';
+	}
+}
+```
