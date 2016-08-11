@@ -63,3 +63,20 @@ if (random <= 0.34) {
        eftersom random inte uppfyller kraven för första if eller andra else if. */
 }
 ```
+
+# Skapa ett konto på jsfiddle
+
+Skärmdump
+
+# Vi kodar spelet
+
+3.	Dags att börja programmera; du måste först ta reda på vad du själv väljer. Till detta skapar vi en funktion som heter `userChoice()`
+
+ a.	Gör en funktion som heter `userChoice` och som returnerar `prompt(’Vill du välja, sten, sax eller påse?’)`
+
+ b.	Testa din funktion genom att ”kalla” på den. Detta gör du genom att skriva `alert(userChoice());`
+ 
+ c.	Kör din kod genom att klicka på knappen *Run* i jsfiddle. Ser du följande?
+   - Ja: bra jobbat! 
+   
+   - Nej: ingen fara; fråga någon av mentorerna om hjälp. Det är helt ok att inte lyckas första gången.
