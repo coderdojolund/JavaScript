@@ -23,4 +23,43 @@ x = 10;
 /* Nu har x värdet 10 istället */
 ```
 
-asdf
+En JavaScript-funktion är ett kodblock för att utföra en viss uppgift. En funktion körs när något ”kallar” på funktionen.
+*Du behöver inte mata in det här kodexemplet i datorn.*
+```javascript
+function subtract(num1, num 2) {
+    return num1 - num2;
+}
+
+var result = this.subtract(5, 2);
+/* result kommer att vara lika med 3 */
+
+/* Man kan även se det så här */
+this.subtract(5, 2);
+
+/* Gör följande: */
+function subtract(5, 2) {
+    return 5 - 2;
+}
+
+/* result kommer att tilldelas värdet av vad funktionen returnerar; result är lika med 3 */
+var result = 3;
+```
+
+En *if-else*-sats avgör antingen eller, t.ex. antingen är jag äldre än 10 eller yngre än 10. Se exempel nedan, vi kommer använda oss av if else senare och det är därför bra att bli bekant med den. 
+*Du behöver inte mata in det här kodexemplet i datorn.*
+
+```javascript
+/* Math.random() kan vara allt från 0 till 1. T.ex. 0.56666 */
+var random = Math.random();
+
+if (random <= 0.34) {
+    /* Anta att random får värdet 0.22; då hamnar vi här
+       eftersom random är mindre än 0.34 */
+  } else if (random <= 0.67) {
+    /* Anta att random får värdet 0.55; då hamnar vi här
+       eftersom random är mindre än 0.67 */
+  } else {
+    /* Anta att random får värdet 0.99; då hamnar vi här
+       eftersom random inte uppfyller kraven för första if eller andra else if. */
+}
+```
