@@ -89,10 +89,12 @@ function userChoice	() {
 alert(userChoice());
 ```
  
- c.	Kör din kod genom att klicka på knappen *Run* i jsfiddle. Ser du följande? (BILD)
-   - Ja: bra jobbat! 
+ c.	Kör din kod genom att klicka på knappen *Run* i jsfiddle. Ser du följande?
+    - Ja: bra jobbat! 
    
    - Nej: ingen fara; fråga någon av mentorerna om hjälp. Det är helt ok att inte lyckas första gången.
+
+<img width="428" alt="2" src="https://cloud.githubusercontent.com/assets/4598641/17616093/bc11a8c4-6072-11e6-82e3-d14f2cddda9a.png">
 
 4.	Dags att låta datorn göra sitt val; ja, det är helt möjligt. JavaScript har en inbyggd funktion som väljer en siffra mellan 0 och 1. Den kan exempelvis välja 0,5645454; detta kommer representera ett värde senare. Gör följande för att skapa en funktion som låter datorn avgöra vilket val den gjort.
 
@@ -206,11 +208,9 @@ alert(compare(userChoice(), computerChoice()));
 
 8. Kör nu koden med "Run" i jsfiddle och testa spelet. Händer följande?
 
-BILD
-
-BILD
-
-BILD
+<img width="428" alt="2" src="https://cloud.githubusercontent.com/assets/4598641/17616093/bc11a8c4-6072-11e6-82e3-d14f2cddda9a.png">
+<img width="427" alt="3" src="https://cloud.githubusercontent.com/assets/4598641/17616092/bc11c278-6072-11e6-8e5d-fcf5c96af200.png">
+<img width="498" alt="4" src="https://cloud.githubusercontent.com/assets/4598641/17616095/bc169622-6072-11e6-8441-11f1f5dbd481.png">
 
 ## Fullständig kod utan kommentarer
 
