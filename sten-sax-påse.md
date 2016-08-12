@@ -69,7 +69,11 @@ if (random <= 0.34) {
 
 # Skapa ett konto på jsfiddle
 
-Skärmdump
+Enklast är att köra koden direkt på webben i [jsfiddle](https://jsfiddle.net).
+
+Om du skapar ett konto kan du spara din kod och dela den med andra.
+
+![jsfiddle](https://cloud.githubusercontent.com/assets/4598641/17616245/c84868de-6073-11e6-9e58-52c22fecb5aa.png)
 
 # Vi kodar spelet
 
