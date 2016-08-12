@@ -97,9 +97,10 @@ alert(userChoice());
 ```
  
  c.	Kör din kod genom att klicka på knappen *Run* i jsfiddle. Ser du följande?
-    - Ja: bra jobbat! 
+ 
+  - Ja: bra jobbat! 
    
-   - Nej: ingen fara; fråga någon av mentorerna om hjälp. Det är helt ok att inte lyckas första gången.
+  - Nej: ingen fara; fråga någon av mentorerna om hjälp. Det är helt ok att inte lyckas första gången.
 
 <img width="428" alt="2" src="https://cloud.githubusercontent.com/assets/4598641/17616093/bc11a8c4-6072-11e6-82e3-d14f2cddda9a.png">
 
